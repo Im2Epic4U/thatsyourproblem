@@ -1,5 +1,3 @@
-# https://discordapp.com/oauth2/authorize?client_id=549084288067436544&scope=bot&permissions=67648
-
 import discord
 import time
 import asyncio
