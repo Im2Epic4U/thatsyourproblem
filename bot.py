@@ -77,11 +77,6 @@ async def on_message(message):
 	global kosmiccrew_guild
 	print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
 
-	if message.author == client.user:
-		return
-	else:
-		await message.channel.send(f"that's your problem")
-
 	if "typ.help" == message.content.lower():
 		embed = discord.Embed(title="ThatsYourProblem Help Menu", description="The commands for ThatsYourProblem are listed here.  [🐦 My Twitter](https://twitter.com/RealIm2Epic4U)  [📺 My Twitch](https://twitch.tv/realim2epic4u)  [🎵 My Spotify](https://open.spotify.com/user/s41fdjzscxb28te73ei9lk9bb?si=9T5VmoynSH2qoCGOy-KHEg)", colour=discord.Colour.blue())
 		embed.add_field(name='Autoreponder', value='Automatically responds to messages.', inline=True)
