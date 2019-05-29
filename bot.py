@@ -82,7 +82,7 @@ async def on_message(message):
 		embed.add_field(name='Autoreponder', value='Automatically responds to messages.', inline=True)
 		embed.add_field(name='typ.membercount', value='Gets the number of members in the server.', inline=True)
 		embed.add_field(name='typ.report', value='Gets a list of how many people are online and how many people have which statuses.')
-		embed.set_footer(text='Contact <@379400007410909186> is there is a bug with this bot.', icon_url='https://cdn.discordapp.com/avatars/379400007410909186/a_264e49cb370914994eda22c49ed2aa96.gif')
+		embed.set_footer(text='Contact real epic#0001 is there is a bug with this bot.', icon_url='https://cdn.discordapp.com/avatars/379400007410909186/a_264e49cb370914994eda22c49ed2aa96.gif')
 		embed.set_thumbnail(url='https://cdn.discordapp.com/avatars/379400007410909186/a_264e49cb370914994eda22c49ed2aa96.gif')
 		embed.set_author(name=message.author, icon_url=message.author.avatar_url)
 		await message.channel.send(content=None, embed=embed)
