@@ -101,7 +101,7 @@ async def on_message(message):
 		online, idle, offline = community_report(kosmiccrew_guild)
 		await message.channel.send(f"```py\nOnline: {online}\nIdle/busy/dnd: {idle}\nOffline: {offline}```")
 		file = discord.File("online.png", filename="online.png")
-		await message.channel.send("online.png", file=file)
+		await message.channel.send(content=None, file=file)
 
 	elif "that's your problem" == message.content.lower():
 		await message.channel.send(f"no u")
