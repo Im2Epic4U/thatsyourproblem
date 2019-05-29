@@ -78,7 +78,7 @@ async def on_message(message):
 	print(f"{message.channel}: {message.author}: {message.author.name}: {message.content}")
 
 	if "typ.help" == message.content.lower():
-		embed = discord.Embed(title="ThatsYourProblem Help Menu", description="The commands for ThatsYourProblem are listed here.  [🐦 My Twitter](https://twitter.com/RealIm2Epic4U)  [📺 My Twitch](https://twitch.tv/realim2epic4u)  [🎵 My Spotify](https://open.spotify.com/user/s41fdjzscxb28te73ei9lk9bb?si=9T5VmoynSH2qoCGOy-KHEg)", colour=discord.Colour.blue())
+		embed = discord.Embed(title="ThatsYourProblem Help Menu", description="The commands for ThatsYourProblem are listed here.      [🐦 My Twitter](https://twitter.com/RealIm2Epic4U)  [📺 My Twitch](https://twitch.tv/realim2epic4u)  [🎵 My Spotify](https://open.spotify.com/user/s41fdjzscxb28te73ei9lk9bb?si=9T5VmoynSH2qoCGOy-KHEg)", colour=discord.Colour.blue())
 		embed.add_field(name='Autoreponder', value='Automatically responds to messages.', inline=True)
 		embed.add_field(name='typ.membercount', value='Gets the number of members in the server.', inline=True)
 		embed.add_field(name='typ.report', value='Gets a list of how many people are online and how many people have which statuses.')
